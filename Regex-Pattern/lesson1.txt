@@ -1,0 +1,45 @@
+
+
+
+
+1. i want to parse only the name : 
+=> / ruhulamin /
+
+2. i want to match only ruhul or buhul or kuhul 
+=> /[rbk]uhul /
+
+3. i want to match a,b,c,d,1,3,4,2 these charecters 
+=> /[abcd1234]/ 
+no other charecters will be matched!
+
+4. i want a,b,c,d,e,f ,1,2,3 any of these charecters or numbers after PQRS
+=>/[abcdef123]PQRS/
+
+5. i want any charecters before pqrs but except M 
+=>/[^M]pqrs/
+
+6. i want any charecters before pqrs except 12@lmn
+=>/[^12@lmn]pqrs/
+
+7. i want any lower case alphabetic charecters before pqrs
+=>/[a-z]pqrs/
+
+8. i want any number before pqrs
+=>/[0-9]pqrs/
+
+9. i want to match exactly 11 digits phone number 
+=>/[0-9]{11}/   {this is digit number}
+
+10. i want any number as large as possible 
+=>/[0-9]+/
+
+11. i want an 11 exect lettered word
+=>[a-z]{11}
+
+
+12. i want any letter that is 5 to 8 length long 
+=>/[a-z]{5,8}/
+
+13. i want any letter that atleast 5 length long
+=>/[a-z]{5,}/ 
+
