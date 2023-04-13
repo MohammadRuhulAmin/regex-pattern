@@ -1,6 +1,5 @@
 
-
-
+=========[Regular Expression]================
 
 1. i want to parse only the name : 
 => / ruhulamin /
@@ -42,4 +41,17 @@ no other charecters will be matched!
 
 13. i want any letter that atleast 5 length long
 =>/[a-z]{5,}/ 
+
+14.what are meta charecters ? explaine it!
+=>
+a. \d [match any digit charecter as same as [0-9]]
+b. \w [match any alphabetic charecter as same as a-z or A-Z , 0-9 or _'s]  
+c. \s match any space charecter (space, tabs etc)
+d. \t match only tab charecter
+
+15. make a regular expression that that the first atleast one charecter will digit,
+then it a space then some word charecter betweeb 3-10
+=>/\d\s\w{3,10}/
+
+
 
