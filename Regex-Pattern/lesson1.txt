@@ -74,5 +74,22 @@ g. '*' one or more quantifire (like '+' quantifire)
     Example:
     [a-z]* means 
     from a to z appears 0 or more than 1 times 
-    
+
+17. what is starting pattern ? 
+
+=>/^[a-z]{5}/
+here ^ makes the starting pattern. it will only match the first five charecters.
+
+18. What is ending pattern ? 
+
+=> /[a-z]{5}$/
+here $ makes the ending pattern.  in this example only the last 5 charecters will be matched!
+
+19. write a start and end patern both 
+
+=> /^[a-z]{5,10}$/ 
+here atleast 5 charecters need to write and atmost 10 charecters will be accepted . 
+
+
+
 
