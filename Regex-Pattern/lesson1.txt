@@ -90,6 +90,27 @@ here $ makes the ending pattern.  in this example only the last 5 charecters wil
 => /^[a-z]{5,10}$/ 
 here atleast 5 charecters need to write and atmost 10 charecters will be accepted . 
 
+20. what is alternate charecter ? 
+
+=> the pipe symble '|' it is used as or symble in regular expression.you can use () to make it saperate 
+like 
+    
+    Example 1 : 
+        /(p|q)type/
+    it will only match ptype or qtype . ltype or any other charecters will not be excepted!
+    (pet|toy|game)[a-z]*
+    means only pet or toy or game will be matched before [a-z]* charecters!
+    
+    Example 2 :
+        (pet|toy|game)?[a-z]*
+
+        means pet or toy or game is optional here
+        
+
+
+
+
+
 
 
 
