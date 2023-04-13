@@ -9,7 +9,11 @@ const inputs = document.querySelectorAll('input');
 const patterns = {
     telephone:/^[0-9]{11}$/,
     username:/^[a-z]{5,12}$/,
+    password:/^[\w@-]${8,20}/,
+    slug:/^[a-z\d-!]${8-20}/,
     
+
+
 }
 
 function validate(field,regex){
