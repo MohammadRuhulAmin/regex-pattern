@@ -55,4 +55,24 @@ then it a space then some word charecter betweeb 3-10
 =>/\d\s\w{3,10}/
 
 
+16. Write down the spacial charecters !
+=>
+a. '+' one or more quantifire
+b. '\' the escape charecter
+c. '[]' the charecter set 
+d. '[^]' the negate symbol in charecter set
+e. '?' zero or one quantifire (make a preciding charecter optional)
+    Example:
+        /hello?/ 
+        here o is optional. if you remove o still hell will be matched!
+        /he?llo?/
+        means if you still remove e or o like hll will be matched
+        /ppp[a-z]?ooo/
+        means after `ppp` and before `ooo`  any charecter from a to z may stay or not doesnot care about it 
+f. '.' any charecter except new line
+g. '*' one or more quantifire (like '+' quantifire)
+    Example:
+    [a-z]* means 
+    from a to z appears 0 or more than 1 times 
+    
 
