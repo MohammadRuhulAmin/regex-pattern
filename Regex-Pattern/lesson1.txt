@@ -49,6 +49,9 @@ b. \w [match any alphabetic charecter as same as a-z or A-Z , 0-9 or _'s]
 c. \s match any space charecter (space, tabs etc)
 d. \t match only tab charecter
 e. more about metacharecters [https://www.w3schools.com/jsref/jsref_obj_regexp.asp]
+f. \W The expression \W is used to find characters other than letters, numbers, and underscores.
+g. \D \D is used to find non-numeric characters.
+h. \S is used to find non-space characters.
 
 15. make a regular expression that that the first atleast one charecter will digit,
 then it a space then some word charecter betweeb 3-10
@@ -87,7 +90,7 @@ here $ makes the ending pattern.  in this example only the last 5 charecters wil
 
 19. write a start and end patern both 
 
-=> /^[a-z]{5,10}$/ 
+=> /^[a-z]{5,10}$/
 here atleast 5 charecters need to write and atmost 10 charecters will be accepted . 
 
 20. what is alternate charecter ? 
